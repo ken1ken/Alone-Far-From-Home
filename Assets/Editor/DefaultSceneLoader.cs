@@ -1,0 +1,26 @@
+﻿#if UNITY_EDITOR
+using UnityEditor;
+using UnityEditor.SceneManagement;
+
+/**
+ * This editor modification makes the play button start the default scene (loading the menu).
+ * It is necessary because we upload a project folder, not a build
+ */
+[InitializeOnLoadAttribute]
+public static class DefaultSceneLoader
+{
+    static DefaultSceneLoader(){
+        EditorApplication.playModeStateChanged += LoadDefaultScene;
+    }
+
+    static void LoadDefaultScene(PlayModeStateChange state){
+        if (state == PlayModeStateChange.ExitingEditMode) {
+            EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo();
+        }
+
+        if (state == PlayModeStateChange.EnteredPlayMode) {
+            EditorSceneManager.LoadScene(0);
+        }
+    }
+}
+#endif

@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - CommanderJohnTrigger1
+  - Open Bedroom Door
+  - HydrogenPack
+  - DoorNotOpenable
+  - DoorOpenable
+  - PlayerStage2
+  - PlayerStage1
+  - PlayerStage3
+  - PlayerStage4
+  - PlayerStage5
+  - PlayerStage6
+  - PlayerStage7
+  - PlayerStage8
+  - PlayerStage9
+  - PlayerStage10
+  - PlayerStage11
+  - PlayerStage12
+  - PlayerStage13
+  - PlayerStage14
+  - PlayerStage15
+  - PlayerStage16
+  - Ending
+  - PlayerStage17
+  - RadarAlly
+  - RadarDangerous
+  - Dan
+  - WayPoint
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Radar
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
